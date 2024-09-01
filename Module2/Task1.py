@@ -3,10 +3,7 @@ import math
 name=input("What is your name?")
 print(f"Hello, {name}!.")
 
-#Exercise 02
-radius=float(input("What is the radius of the circle?"))
-area=math.pi*radius**2
-print(f"The area of the circle is for", str(radius),"is:",area)
+
 
 #Exercise 03
 lenght = float(input("What is the length of the rectangle:"))
