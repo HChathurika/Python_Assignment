@@ -4,28 +4,15 @@ name = input("What is your name?")
 print("Hello," + name + "!Nice to meet you")
 
 
-8
 
 
 
-#Execrcise 01
-name = input("What is your name?")
-print("Hello," + name + "!Nice to meet you")
-#Exercise 02
-import math
-radius=float(input("What is the radius of the circle?"))
-area=math.pi*radius**2
-print(f"The area of the circle is for", str(radius),"is:",area)
-8
 
 
-#Exercise 03
-lenght = float(input("What is the length of the rectangle:"))
-width = float(input("What is the width of the rectangle:"))
-area=lenght*width
-perimeter=2*lenght+2*width
-print(f"The area of the rectangle is: {area}")
-print(f"The perimeter of the rectangle is: {perimeter}")
+
+
+
+
 
 #Exercise 04
 num_1 = int(input("Enter first numbers: "))
