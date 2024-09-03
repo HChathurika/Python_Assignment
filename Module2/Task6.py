@@ -1,11 +1,15 @@
-#Exercise 06
-import random
-def generate_3_digit_code():
-    return ''.join(str(random.randint(0, 9)) for _ in range(3))
-def generate_4_digit_code():
-    return ''.join(str(random.randint(1, 6)) for _ in range(4))
-def main():
-    code_3_digit = generate_3_digit_code()
-    code_4_digit = generate_4_digit_code()
-    print(f"3-digit code: {code_3_digit}")
-    print(f"4-digit code: {code_4_digit}")
+#Exercise
+
+from random import randint, randrange, random
+
+num_1 = randint(0, 9)
+num_2 = randint(0, 9)
+num_3 = randint(0, 9)
+
+print(f"code1: {num_1}{num_2}{num_3}")
+
+num_4 = randint(1, 6)
+num_5 = randint(1, 6)
+num_6 = randint(1, 6)
+num_7 = randint(1, 6)
+print(f"code2: {num_4}{num_5}{num_6}{num_7}")
