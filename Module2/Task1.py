@@ -2,6 +2,7 @@
 #Execrcise 01
 name = input("What is your name?")
 print("Hello," + name + "!Nice to meet you")
+
 #Exercise 02
 import math
 radius=float(input("What is the radius of the circle?"))

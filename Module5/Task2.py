@@ -1,7 +1,7 @@
 names = ["Juha", "Pekka", "Olga"]
 
 user_input  = input("Enter your name: ")
-while user input != "":
+while user_input != "":
     names.append(user_input)
 print(f"Current length of nbames lisyt: {len(names)}")
 user_input = input("Enter name(empty stops): ")
