@@ -5,23 +5,6 @@ print("Hello," + name + "!Nice to meet you")
 
 
 
-
-
-
-
-
-
-
-
-
-
-#Exercise 05
-talents = float (input("Enter talents:"))
-pounds = float (input("Enter pounds:"))
-lots = float (input("Enter lots:"))
-kg_weight = (talents*20+pounds)*32+lots*0.0133
-gr_weight = 1000*(kg_weight-int(kg_weight))
-print(f"The weight in modern unit:\n{int(kg_weight)}kilogram and {gr_weight:2f}grams")
 #Exercise 06
 import random
 def generate_3_digit_code():
@@ -34,6 +17,16 @@ def main():
     print(f"3-digit code: {code_3_digit}")
     print(f"4-digit code: {code_4_digit}")
 if __name__ == "__main__":
+
+
+
+
+
+
+
+
+
+
 
     gender = input("Enter your gender: ")
     hemoglobin = input("Enter your  value: ")
