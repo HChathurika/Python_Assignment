@@ -1,10 +1,9 @@
-import random
+for value in range(3,20,5):
+    print(value)
 
-num_of_dice = int(input("Enter a number that How many dice you roll?: "))
+for hello in range(4):
+    print(f"Hello {hello}")
+print(range(5))
 
-total = 0
-
-for _ in range(num_of_dice):
-    roll = random.randint(1, 6)
-    total += roll
-print("The total is", total)
+for i in range(5):
+     print("hello five times")
