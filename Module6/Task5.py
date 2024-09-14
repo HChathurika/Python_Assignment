@@ -11,6 +11,5 @@ numbers = list(map(int, my_list.split()))
 even_list = only_even(numbers)
 
 
-
 print("original list = ",numbers)
 print("List only even numbers:",even_list)
